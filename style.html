@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<head>
+	<title>LPT: styles of music</title>
+	<link href='http://fonts.googleapis.com/css?family=Loved+by+the+King' rel='stylesheet' type='text/css'>
+	<link rel='stylesheet' href='lpt.css' />
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="generator" content="Geany 1.23.1" />
+</head>
+
+<header>
+	<h1>Let's Play Guitar Together</h1>
+	<h2>*** Choose the style of music you like ***</h2>
+	<span class="imgfloat_left"><img src="logo1.png" alt="" /></span>
+	<span class="imgfloat_right"><img src="logo2.png" alt="" /></span>
+</header>
+
+<body>
+	<section>
+		<form method="post" action="style.php">
+			<p>
+				<label for="style">1/ Choose your style of music</label><br /><br />
+				<select name="style" id="style" >
+					<optgroup label="A">
+						<option value="acoustic">acoustic</option>
+					</optgroup>
+					<optgroup label="B">
+						<option value="ballad">ballad</option>
+						<option value="bebop">bebop</option>
+						<option value="blackmetal">black metal</option>
+						<option value="blues">blues</option>
+						<option value="bluegrass">bluegrass</option>
+					</optgroup>
+					<optgroup label="C">
+						<option value="classical">classical</option>
+						<option value="country">country</option>
+					</optgroup>
+					<optgroup label="D">
+						<option value="darkmetal">dark metal</option>
+						<option value="deathmetal">death metal</option>
+						<option value="disco">disco</option>
+					</optgroup>
+					<optgroup label="E">
+						<option value="electroacoustic">electro acoustic</option>
+					</optgroup>
+					<optgroup label="F">
+						<option value="flamenco">flamenco</option>
+						<option value="folk">folk</option>
+						<option value="funk">funk</option>
+					</optgroup>
+					<optgroup label="G">
+						<option value="garagerock">garage rock</option>
+						<option value="glamrock">glam rock</option>
+						<option value="gothicmetal">gothic metal</option>
+						<option value="grindcore">grindcore</option>
+						<option value="grunge">grunge</option>
+					</optgroup>
+					<optgroup label="H">
+						<option value="hardrock">hard rock</option>
+						<option value="heavymetal">heavy metal</option>
+					</optgroup>
+					<optgroup label="I">
+						<option value="indiepop">indie pop</option>
+					</optgroup>
+					<optgroup label="J">
+						<option value="java">java</option>
+						<option value="jazz">jazz</option>
+						<option value="jazzrockfusion">jazz rock fusion</option>
+					</optgroup>
+					<optgroup label="K">
+						<option value="k">...???</option>
+					</optgroup>
+					<optgroup label="L">
+						<option value="latin">latin</option>
+					</optgroup>
+					<optgroup label="M">
+						<option value="metal">metal (in general)</option>
+					</optgroup>
+					<optgroup label="N">
+						<option value="neo">neo (in general)</option>
+					</optgroup>
+					<optgroup label="O">
+						<option value="operarock">opera rock</option>
+					</optgroup>
+					<optgroup label="P">
+						<option value="popmusic">pop music</option>
+						<option value="poprock">pop-rock</option>
+						<option value="punk">punk</option>
+					</optgroup>
+					<optgroup label="Q">
+						<option value="q">...???</option>
+					</optgroup>
+					<optgroup label="R">
+						<option value="rnb">R'n'B</option>
+						<option value="reggae">reggae</option>
+						<option value="rock">rock (in general)</option>
+					</optgroup>
+					<optgroup label="S">
+						<option value="samba">samba</option>
+						<option value="soul">soul music</option>
+						<option value="speedmetal">speed metal</option>
+					</optgroup>
+					<optgroup label="T">
+						<option value="trashmetal">trash metal</option>
+						<option value="twist">twist</option>
+					</optgroup>
+					<optgroup label="U">
+						<option value="u">...???</option>
+					</optgroup>
+					<optgroup label="V">
+						<option value="v">...???</option>
+					</optgroup>
+					<optgroup label="W">
+						<option value="w">...???</option>
+					</optgroup>
+					<optgroup label="X">
+						<option value="x">...???</option>
+					</optgroup>
+					<optgroup label="Y">
+						<option value="y">...???</option>
+					</optgroup>
+					<optgroup label="Z">
+						<option value="z">...???</option>
+					</optgroup>
+				</select>
+			</p>
+			
+			<p>
+				<label for="style">2/ Would you like to play ?</label><br /><br />
+				<input type="radio" name="souhait" value="riche" id="riche" /> <label for="riche">Alone (you will be redirected to the page "Practice")</label><br />
+				<input type="radio" name="souhait" value="celebre" id="celebre" /> <label for="celebre">With another person (directly without training?)</label><br />
+				<input type="radio" name="souhait" value="intelligent" id="intelligent" /> <label for="intelligent">No thank you, I just listen to the songs of other guitarists and contact them later...</label><br />
+			</p>
+			
+			<p>
+				<label for="style">3/ What is your level ?</label><br /><br />
+				<input type="radio" name="level" value="beginner" id="beginner" /> <label for="beginner">Beginner</label><br />
+				<input type="radio" name="level" value="intermediate" id="intermediate" /> <label for="intermediate">Intermediate</label><br />
+				<input type="radio" name="level" value="confirmed" id="confirmed" /> <label for="confirmed">Confirmed</label><br />
+				<input type="radio" name="level" value="expert" id="expert" /> <label for="expert">Expert ... yes I'm a <strong>rock star</strong> !!!</label><br />
+			</p>
+			
+			<p>
+				<label for="style">4/ Confirm your choices</label><br /><br />
+				<input type="submit" value="Submit the form" /><span class="validate"><input type="image" src="confirm.png" alt="Validate" title="Confirm your choice" /></span>
+			</p>		
+		</form>
+	</section>
+	
+	<article>
+		<aside>
+			<p>Here you select your music style.<br /><br />
+			Click on validate, then go on the page "Practice" (you're playing alone) or "Make a guitar session" (you're playing with connected someone else).<br/><br />
+			Have fun !!!</p>
+		</aside>
+	</article>
+</body>
+
+<footer>
+	<figure>
+		<a href="lpt.html"><img src="home.png" alt="" title="Back to Home"/></a>
+		<a href="practice.html"><img src="practice.png" alt="" title="Practice"/></a>
+		<a href="session.html"><img src="session.png" alt="" title="Play with Someone else"/></a>
+		<a href="share.html"><img src="share.png" alt="" title ="Record and Share"/></a>
+		<figcaption>designed by <a href="mailto:jeanmarie.huberty@laposte.net">Jean-Marie Huberty</a> march 2015<br />for Mr. Patrick Perney - 77550 Moissy Cramayel</figcaption>
+	</figure>	
+</footer>
+
+</html>
