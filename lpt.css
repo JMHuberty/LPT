@@ -1,0 +1,142 @@
+	body {
+		font-family: helvetica, sans-serif;
+		margin: 0 auto;
+		max-width: 800px;
+		background-image: url("/home/jmh/Documents/www-jmh/letsplaytogether/blackbackground.jpg");
+		background-size: cover;
+	}
+
+	h1 {
+		font-family: 'Loved by the King', cursive;
+		text-align: center;
+		font-size: 80px;
+		color: #aaaaaa;
+		margin: 50px 0 -10px 0;
+	}
+
+	h2 {
+		font-family: 'Loved by the King', cursive;
+		text-align: center;
+		font-size: 22px;
+		color: #bbbbbb;
+		margin: 0 0 50px 0;
+	}
+	
+	.imgfloat_left {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		opacity: .8;
+	}
+	
+	.imgfloat_right {
+		position: absolute;
+		top: 10px;
+		left: 1000px;
+		opacity: .8;
+	}
+		
+	p {
+		color: #bbbbbb;
+		font-family: 'Loved by the King', cursive;
+		line-height: 20px;
+		background: linear-gradient(bottom, rgba(35,56,75,1), rgba(0,0,0,.4));
+		background: -webkit-linear-gradient(bottom, rgba(35,56,75,1), rgba(0,0,0,.4));
+		background: -moz-linear-gradient(bottom, rgba(35,56,75,1), rgba(0,0,0,.4));
+		padding: 10px;
+		border-radius: 12px;
+	}
+	
+	nav {
+		position: absolute;
+		left: 550px;
+		display: inline-block;
+		vertical-align: top;
+		width: 400px;
+		height: 150px;
+		margin: 20px auto;
+		font-size: 20px;
+		line-height: 28px;
+		border-radius: 12px;
+	}
+	
+	span a {
+		color: #bbbbbb;
+		font-size: large;
+		font-weight: bold;
+		text-decoration: none;
+	}
+	
+	.go {
+		float: right;
+	}
+	
+	.validate {
+		float: right;
+	}
+		
+	article {
+		color: #bbbbbb;
+		position: relative;
+		display: inline-block;
+		padding-top: 25px;
+		vertical-align: top;
+		margin-left: 770px;
+		width: 250px;
+		height: 392px;
+		font-family: 'Loved by the King', cursive;
+		font-size: 20px;
+		line-height: 28px;
+		text-align: center;
+		border-radius: 12px;
+	}
+	
+	section {
+		color: #bbbbbb;
+		position: absolute;
+		display: inline-block;
+		vertical-align: top;
+		margin: 20px auto;		
+		left: 550px;
+		width: 400px;
+		height: 150px;
+		font-family: 'Loved by the King', cursive;
+		font-size: 20px;
+		line-height: 28px;
+		text-align: left;
+		border-radius: 12px;
+	}
+	
+	.choose {
+		opacity: .5;
+	}
+	
+	.practice {
+		padding: 5px;
+		opacity: .5;
+	}
+	
+	.session {
+		padding: 5px;
+		opacity: .5;
+	}
+	
+	.share {
+		padding: 5px;
+		opacity: .5;
+	}
+	
+	footer figure {
+		position: relative;
+		margin-left: 340px;
+		margin-top: 160px;
+	}
+	
+	figcaption {
+		font-family: 'Loved by the King', cursive;
+		position: relative;
+		left: 350px;
+		text-align: center;
+		font-size: 18px;
+		color: #bbbbbb;	
+	}
